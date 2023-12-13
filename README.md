@@ -166,16 +166,46 @@ print(item)  # Output: 3
 
 > [!NOTE]
 > Index value starts with '0'
+<img width="531" alt="python-list-index" src="https://github.com/Sushantshah222/Python-BMC-CSIT/assets/60286504/067717bd-3181-4066-8309-0e16b2d4fea0">
 
 
 
 #### Negative Indexing:
 
--1 indicates last item of the list. 'my_list[-1] = ‘e’'
-
+-1 indicates last item of the list.
+```bash
 my_list = ['P', 'R', 'O', 'B', 'E']
 
-my_list[-1] 
+print(my_list[-1])
+```
+
+#### List Slicing
+```
+#Slicing from index 2 to 5 
+sliced_list = my_list[2:3]
+
+print(sliced_list)  # Output: ['O']
+```
+```bash
+my_list[1:3]                             #‘r’,’o’ # last index is excluded
+my_list[:3]                              #‘p’,’r’,’o’ # if start range is empty it is by default 0
+my_list[2:]                              #‘o’,’b’,’e’ # if the last index is empty it is by default the end+1
+```
+Add/Change items in list:
+```bash
+my_list[0] = ‘a’                         #replace ‘p’ with ‘a’
+my_list[1:4] = [‘b’,’c’,’d’]             #replace ‘r’,’o’,’b’ with ‘b’,’c’,’d’
+my_list.append(‘r’)                      # add ‘r’ to the last position of list
+my_list.extend([‘a’,’b’])                #add ‘a’,’b’ to the last position
+my_list.insert(1,’k’)                    # insert ‘k’ to the 2nd position
+```
+
+#### Delete list elements:
+```
+del my_list[2]                           # removes 3rd  element from the list
+del my_list[1:5]                         # removes items from 1 to 4
+```
+
 
 
 
