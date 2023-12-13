@@ -200,12 +200,14 @@ my_list.extend([‘a’,’b’])                #add ‘a’,’b’ to the las
 my_list.insert(1,’k’)                    # insert ‘k’ to the 2nd position
 ```
 
-#### Delete list elements:
+Delete list elements:
 ```
 del my_list[2]                           # removes 3rd  element from the list
 del my_list[1:5]                         # removes items from 1 to 4
 ```
 
+#### list Methods
+<img width="856" alt="Screenshot 2023-12-13 at 9 43 16 AM" src="https://github.com/Sushantshah222/Python-BMC-CSIT/assets/60286504/64c306a0-f9e0-45ca-b09b-c52538f1aa1b">
 
 
 
