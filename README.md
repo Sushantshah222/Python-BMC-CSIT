@@ -140,7 +140,7 @@ Properties of a list:
 + List are **mutable**.
 + List allow **duplicates**.
 
-Creating List:
+ List:
 ```bash
 #Example 1
 my_list = ['Ram', 'Shyam','Hari', 20, 30, 40] 
@@ -157,9 +157,29 @@ list_length = len(my_list)
 print(f"The length of the list is:{list_length}")
 
 ```
+Acessing list item: `my_list[index number]`
+```bash
+my_list = [1, 2, 3, 4, 5]
+my_list[2] = item
+print(item)  # Output: 3
+```
+
+> [!NOTE]
+> Index value starts with '0'
 
 
 
+#### Negative Indexing:
+
+-1 indicates last item of the list. 'my_list[-1] = ‘e’'
+
+my_list = ['P', 'R', 'O', 'B', 'E']
+
+my_list[-1] 
+
+
+
+ 
 
 
 
