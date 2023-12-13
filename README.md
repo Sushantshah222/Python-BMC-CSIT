@@ -36,8 +36,11 @@ source myvenv/bin/activate
 ### Muti line Comment
 
 ```
-this is multiole line refer garnu.
-I can write multiple documentation o descripition
+"""
+this is multiline comment.
+I can write multiple line documentation on descripition on any of my python projects.
+This makes mee very easy to explain you all.
+"""
 ```
 
 
