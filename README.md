@@ -76,6 +76,31 @@ Text type: Str
 * Mapping Type: dict
 * Set Type: Set
 * Boolean Type: bool
+```bash
+#Integer
+my_integer = 10
+
+#Float
+my_float = 3.14
+
+#String
+my_string = "Hello, World!"
+
+#Boolean
+my_boolean = True
+
+#List
+my_list = [1, 2, 3, 4, 5]
+
+#Tuple
+my_tuple = (1, 2, 3, 4, 5)
+
+#Set
+my_set = {1, 2, 3, 4, 5}
+
+#Dictionary
+my_dict = {"name": "John", "age": 30, "city": "New York"}
+```
 
 
 
