@@ -22,7 +22,7 @@ Firstly create new python environment using
 ```bash
 python -m venv myenv
 ```
-## Activate the environment
+### Activate the environment
 
 Fow Windows
 ```bash
@@ -42,7 +42,7 @@ I can write multiple line documentation on descripition on any of my python proj
 This makes mee very easy to explain you all.
 """
 ```
-### Variables
+## Variables
 
 Variables are containers for storing data values.
 Python being dynamically typed there is no command for declaring a variable.A variable is created the moment the value is assigned to it.
@@ -66,6 +66,16 @@ One value can be assigned to multiple variables.
 ```bash
 x=y=z=5
 ```
+## Datatypes
+
+A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data.
+Python has the following data types built-in by default.
+Text type: Str
+* Numeric Type: int, float, complex
+* Sequence Type: list, tuple, range 
+* Mapping Type: dict
+* Set Type: Set
+* Boolean Type: bool
 
 
 
