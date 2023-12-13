@@ -209,6 +209,52 @@ del my_list[1:5]                         # removes items from 1 to 4
 #### list Methods
 <img width="856" alt="Screenshot 2023-12-13 at 9 43 16 AM" src="https://github.com/Sushantshah222/Python-BMC-CSIT/assets/60286504/64c306a0-f9e0-45ca-b09b-c52538f1aa1b">
 
+## Tuples
+
+Tuples are used to store multiple values in single variable.
+Properties of a tuple:
+1.Tuple are ordered.
+2.Tuple are immutable.
+3.Tuple allow duplicates.
+
+Create a tuple:
+`my_tuple = (item1,item2,item3)`
+
+Finding the length of the tuple:
+`print(len(my_tuple))`
+
+Access items of the tuple:
+`The tuple index starts with 0.`
+```bash
+# Creating a tuple
+my_tuple = (1, 2, 3, 'a', 'b', 'c')
+
+# Finding the length of the tuple
+length = len(my_tuple)
+
+# Accessing tuple items
+first_item = my_tuple[0]
+second_item = my_tuple[1]
+third_item = my_tuple[2]
+
+print(length)
+print(first_item)
+print(second_item)
+print(third_item)
+```
+
+> [!NOTE]
+> Accessing the elements of Tuple is similar to accessing elements of a List
+
+Create a tuple with one element:
+`my_tuple = (item_1,)`
+
+Changing an element of a Tuple:
+Since tuple is immutable, the items of tuple cannot be changed. To change the item of a tuple change tuple to list list(my_tuple), change the element and convert list to tuple.
+
+Deleting items of a Tuple:
+Individual items of a tuple cannot be deleted, but the entire tuple can be deleted.
+`del my_tuple`
 
 
  
