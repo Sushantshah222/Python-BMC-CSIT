@@ -102,6 +102,64 @@ my_set = {1, 2, 3, 4, 5}
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 ```
 
+## Typecasting
+ Type casting is a method or process that converts a data type into another data type in both ways manually and automatically.
+ 
+Casting in python is therefore done using constructor functions:
+1. `int()` - constructs an integer number from an integer literal, a float literal (by removing all decimals), or a string literal (providing the string represents a whole number)
+2. `float()` - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
+3. `str()` - constructs a string from a wide variety of data types, including strings, integer literals and float literals
+
+```bash
+#Typecasting from int to float
+x = 5
+y = float(x)
+print(y)  # Output: 5.0
+
+#Typecasting from float to int
+a = 3.14
+b = int(a)
+print(b)  # Output: 3
+
+#Typecasting from string to int
+num_str = "10"
+num_int = int(num_str)
+print(num_int)  # Output: 10
+
+#Typecasting from int to string
+num_int = 20
+num_str = str(num_int)
+print(num_str)  # Output: "20"
+```
+
+## List
+
+Lists are used to store multiple items in a single variable.
+Properties of a list:
++ List are **ordered**.
++ List are **mutable**.
++ List allow **duplicates**.
+
+Creating List:
+```bash
+#Example 1
+my_list = ['Ram', 'Shyam','Hari', 20, 30, 40] 
+
+#Example 2
+my_list = [1, 2, 3, "four", 5.5, True, [6, 7, 8], {"nine": 9}]
+```
+
+Finding length of list using `len()`
+```bash
+my_list = [1, 2,"ram", 3, 4, 5, "SITA"]
+
+list_length = len(my_list)
+print(f"The length of the list is:{list_length}")
+
+```
+
+
+
 
 
 
