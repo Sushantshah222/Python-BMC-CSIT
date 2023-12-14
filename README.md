@@ -368,6 +368,26 @@ Creating a dictionary:
 > [!IMPORTANT]
 > Dictionaries cannot have two items with the same key:
 
+```bash
+# Creating a dictionary
+my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+```
+```bash
+# Accessing dictionary keys
+for key in my_dict.keys()
+   print(key)
+
+```
+```
+# Accessing dictionary values
+for value in my_dict.values():
+    print(value)
+```
+Get Keys:
+`x = my_dict.keys()`
+
+Get Values:
+`X = my_dict.values()`
 
 
 
