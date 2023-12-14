@@ -324,6 +324,39 @@ del my_set
 Methods of Set
  ![wqzaa229h4db1](https://github.com/Sushantshah222/Python-BMC-CSIT/assets/60286504/8d422d3f-d2d7-4d1c-9a1c-9740b8e71def)
 
+### String
+
+A string is a sequence of characters.
+Creating a String:
+Strings can be created by enclosing characters inside a single quote or double-quotes.
+`my_string = “Hello World”`
+
+Accessing the characters of a String:
+The characters of a string can be accessed same as the elements of List and Tuple are accessed.
+
+Change/Delete character of a String:
+String is immutable, so the characters of string cannot be changed or deleted.But the entire string can be deleted.
+`del my_string`
+
+```bash
+# Create a string
+my_string = "Hello, World!"
+```
+```bash
+# Accessing the string
+print(my_string)  # Output: Hello, World!
+print(my_string[0])  # Output: H
+print(my_string[7:12])  # Output: World
+```
+```bash
+# Deleting the string
+del my_string
+```
+
+
+
+ 
+
 
 
 
