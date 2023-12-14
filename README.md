@@ -352,6 +352,23 @@ print(my_string[7:12])  # Output: World
 # Deleting the string
 del my_string
 ```
+### Dictionary
+
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+Dictionaries are written with curly brackets, and have keys and values:
+
+Creating a dictionary:
+`my_dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}`
+
+> [!IMPORTANT]
+> Dictionaries cannot have two items with the same key:
+
+
 
 
 
