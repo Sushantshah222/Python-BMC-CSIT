@@ -256,8 +256,74 @@ Deleting items of a Tuple:
 Individual items of a tuple cannot be deleted, but the entire tuple can be deleted.
 `del my_tuple`
 
+#### Unpacking Tuple
+```bash
+# Example1
+#Define a tuple of fruits
+fruits = ("apple", "banana", "cherry")
+```
 
- 
+```bash
+#Unpack the tuple into separate variables
+fruit1, fruit2, fruit3 = fruits
+
+#Print the unpacked variables
+print(fruit1)  # Output: apple
+print(fruit2)  # Output: banana
+print(fruit3)  # Output: cherry
+```
+
+###  Set
+
+Tuples are used to store multiple values in single variable.
+Properties of Set:
+1. Set is unordered.
+2. Set is immutable*.
+3. Set doesn’t allow duplicates.
+4. Set is unindexed.
+
+Create a set:
+`my_set = {‘apple’,’banana’,’cat’}`
+
+Add items to set:
+`my_set.add(“orange”)`
+
+```bash
+tropical = {"pineapple", "mango", "papaya"}
+
+my_set.update(["fig","grape"])
+```
+
+Some built-in methods like `remove()`, `discard()`,`pop()`,`clear()`
+
+```bash
+my_set = {'apple', 'banana', 'cherry', 'date'}
+
+# Remove 'banana' from the set
+my_set.remove('banana')
+print(my_set)  # Output: {'apple', 'cherry', 'date'}
+
+# Remove 'banana' from the set (using discard)
+my_set.discard('banana')
+print(my_set)  # Output: {'apple', 'cherry', 'date'}
+
+# Remove the last element of the set
+my_set.pop()
+print(my_set)  # Output: {'cherry', 'date'}
+
+# Empty the set
+my_set.clear()
+print(my_set)  # Output: set()
+```
+Deleting the set `del my_set`
+
+```bash
+# Delete the entire set
+del my_set
+```
+Methods of Set
+ ![wqzaa229h4db1](https://github.com/Sushantshah222/Python-BMC-CSIT/assets/60286504/8d422d3f-d2d7-4d1c-9a1c-9740b8e71def)
+
 
 
 
